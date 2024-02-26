@@ -7,12 +7,12 @@ import (
 // 平方根の実装
 func Sqrt(x float64) float64 {
 	// 10回計算を繰り返す
-	for z := 1; 1 <= 10; i++ {
+	for z := 1; 1 <= 10; z++ {
 		z -= (z*z - x) / (2*z)
 		fmt.Println(z)
-
-		if
 	}
+
+	return x
 }
 
 func main() {
